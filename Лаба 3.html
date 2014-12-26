@@ -1,0 +1,29 @@
+<html>  
+ 
+<head>  
+ 
+ <title>Лабораторная №3</title>  
+ <script type="text/javascript">  
+ 
+ 
+ function addIt() {  
+ var value1 = (document.getElementById("inputA").value);
+ var value2 = (document.getElementById("inputB").value);        
+ 
+ 
+ document.getElementById("output").value = value1 * value2;  
+ }  
+  
+ 
+</script>  
+ </head>  
+ 
+<body>  
+<form name="adder"> 
+<p>Введите k</p><input type="text" name="inputB" id="inputB" value="" size="10" /> <br><br>   
+<p>Введите x</p><input type="text" name="inputA" id="inputA" value="" size="10" /> <br><br>     
+<input type="button" value="Вычислить" onclick="addIt()">  
+<p>Ответ :</p><input type="text" name="output" id="output" size="10" />  
+</form>  
+</body>  
+</html> 
